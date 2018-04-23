@@ -1,0 +1,6 @@
+4522 [main] INFO  tests.TestBase - Start test testAddTypeParamProductwith parameters[note, Примечание, string,  ]
+6925 [main] INFO  tests.TestBase - Stop test testAddTypeParamProduct
+6926 [main] INFO  tests.TestBase - Start test testAddTypeParamProductwith parameters[rateStructSH, Структура процентных ставок б/у авто, struct,  ]
+8644 [main] INFO  tests.TestBase - Stop test testAddTypeParamProduct
+8644 [main] INFO  tests.TestBase - Start test testAddTypeParamProductwith parameters[insurancesArr, Массив страховок1, array, Структура страховки]
+10315 [main] INFO  tests.TestBase - Stop test testAddTypeParamProduct

@@ -1,0 +1,3 @@
+note;Примечание;string; ;
+rateStructSH;Структура процентных ставок б/у авто;struct; ;
+insurancesArr;Массив страховок1;array;Структура страховки;
