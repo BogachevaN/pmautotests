@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="2" total="6" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="11339" started-at="2018-04-26T04:18:55Z" finished-at="2018-04-26T04:19:06Z">
+    <groups>
+    </groups>
+    <test name="TypeParams" duration-ms="5835" started-at="2018-04-26T04:18:55Z" finished-at="2018-04-26T04:19:01Z">
+      <class name="tests.AddTypeParamProductTests">
+        <test-method status="PASS" signature="logTestStart(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:tests.AddTypeParamProductTests@7a3d45bd]" name="logTestStart" is-config="true" duration-ms="4" started-at="2018-04-26T04:18:55Z" finished-at="2018-04-26T04:18:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.AddTypeParamProductTests.testAddTypeParamProduct(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.sql.SQLException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@1199fe66]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method status="FAIL" signature="testAddTypeParamProduct(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.AddTypeParamProductTests@7a3d45bd]" name="testAddTypeParamProduct" duration-ms="2613" started-at="2018-04-26T04:18:55Z" data-provider="validTypeParam" finished-at="2018-04-26T04:18:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[note]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[РџСЂРёРјРµС‡Р°РЅРёРµ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[string]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [18] but found [17]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [18] but found [17]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:652)
+at org.testng.Assert.assertEquals(Assert.java:662)
+at tests.AddTypeParamProductTests.testAddTypeParamProduct(AddTypeParamProductTests.java:42)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddTypeParamProduct -->
+        <test-method status="PASS" signature="logTestStop(java.lang.reflect.Method)[pri:0, instance:tests.AddTypeParamProductTests@7a3d45bd]" name="logTestStop" is-config="true" duration-ms="1" started-at="2018-04-26T04:18:57Z" finished-at="2018-04-26T04:18:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.AddTypeParamProductTests.testAddTypeParamProduct(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStop -->
+        <test-method status="FAIL" signature="testAddTypeParamProduct(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.AddTypeParamProductTests@7a3d45bd]" name="testAddTypeParamProduct" duration-ms="2334" started-at="2018-04-26T04:18:57Z" data-provider="validTypeParam" finished-at="2018-04-26T04:19:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rateStructSH]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[РЎС‚СЂСѓРєС‚СѓСЂР° РїСЂРѕС†РµРЅС‚РЅС‹С… СЃС‚Р°РІРѕРє Р±/Сѓ Р°РІС‚Рѕ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[struct]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [18] but found [17]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [18] but found [17]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:652)
+at org.testng.Assert.assertEquals(Assert.java:662)
+at tests.AddTypeParamProductTests.testAddTypeParamProduct(AddTypeParamProductTests.java:42)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddTypeParamProduct -->
+        <test-method status="PASS" signature="logTestStart(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:tests.AddTypeParamProductTests@7a3d45bd]" name="logTestStart" is-config="true" duration-ms="0" started-at="2018-04-26T04:18:57Z" finished-at="2018-04-26T04:18:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.AddTypeParamProductTests.testAddTypeParamProduct(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.sql.SQLException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@2d96543c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method status="PASS" signature="logTestStop(java.lang.reflect.Method)[pri:0, instance:tests.AddTypeParamProductTests@7a3d45bd]" name="logTestStop" is-config="true" duration-ms="0" started-at="2018-04-26T04:19:00Z" finished-at="2018-04-26T04:19:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.AddTypeParamProductTests.testAddTypeParamProduct(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStop -->
+      </class> <!-- tests.AddTypeParamProductTests -->
+      <class name="tests.RemoveTypeParamProductTests">
+        <test-method status="PASS" signature="logTestStart(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:tests.RemoveTypeParamProductTests@1e7c7811]" name="logTestStart" is-config="true" duration-ms="1" started-at="2018-04-26T04:19:00Z" finished-at="2018-04-26T04:19:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.RemoveTypeParamProductTests.testRemoveTypeParamWithoutProduct() throws java.lang.InterruptedException,java.sql.SQLException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@73a2e526]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method status="PASS" signature="testRemoveTypeParamWithoutProduct()[pri:0, instance:tests.RemoveTypeParamProductTests@1e7c7811]" name="testRemoveTypeParamWithoutProduct" duration-ms="854" started-at="2018-04-26T04:19:00Z" finished-at="2018-04-26T04:19:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveTypeParamWithoutProduct -->
+        <test-method status="PASS" signature="logTestStop(java.lang.reflect.Method)[pri:0, instance:tests.RemoveTypeParamProductTests@1e7c7811]" name="logTestStop" is-config="true" duration-ms="1" started-at="2018-04-26T04:19:01Z" finished-at="2018-04-26T04:19:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.RemoveTypeParamProductTests.testRemoveTypeParamWithoutProduct() throws java.lang.InterruptedException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStop -->
+      </class> <!-- tests.RemoveTypeParamProductTests -->
+    </test> <!-- TypeParams -->
+    <test name="Products" duration-ms="5475" started-at="2018-04-26T04:19:01Z" finished-at="2018-04-26T04:19:06Z">
+      <class name="tests.AddProductTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.AddProductTests@3ecd23d9]" name="setUp" is-config="true" duration-ms="4220" started-at="2018-04-26T04:18:50Z" finished-at="2018-04-26T04:18:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logTestStart(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:tests.AddProductTests@3ecd23d9]" name="logTestStart" is-config="true" duration-ms="1" started-at="2018-04-26T04:19:01Z" finished-at="2018-04-26T04:19:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.AddProductTests.testAddProductLevelOne(java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.sql.SQLException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@7d64e326]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStart -->
+        <test-method status="PASS" signature="testAddProductLevelOne(java.lang.String, java.lang.String)[pri:0, instance:tests.AddProductTests@3ecd23d9]" name="testAddProductLevelOne" duration-ms="5473" started-at="2018-04-26T04:19:01Z" data-provider="validProduct" finished-at="2018-04-26T04:19:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Р’РµСЂС…РЅРёР№ СѓСЂРѕРІРµРЅСЊ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Р’РєР»Р°РґС‹]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddProductLevelOne -->
+        <test-method status="PASS" signature="logTestStop(java.lang.reflect.Method)[pri:0, instance:tests.AddProductTests@3ecd23d9]" name="logTestStop" is-config="true" duration-ms="0" started-at="2018-04-26T04:19:06Z" finished-at="2018-04-26T04:19:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.AddProductTests.testAddProductLevelOne(java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.sql.SQLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStop -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddProductTests@3ecd23d9]" name="tearDown" is-config="true" duration-ms="647" started-at="2018-04-26T04:19:06Z" finished-at="2018-04-26T04:19:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddProductTests -->
+    </test> <!-- Products -->
+  </suite> <!-- Suite1 -->
+</testng-results>

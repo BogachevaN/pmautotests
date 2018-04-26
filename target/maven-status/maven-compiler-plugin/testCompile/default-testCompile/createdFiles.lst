@@ -1,0 +1,10 @@
+appmanager\DbHelper.class
+tests\AddProductTests.class
+appmanager\ApplicationManager.class
+tests\AddTypeParamProductTests.class
+appmanager\NavigationHelper.class
+appmanager\HelperBase.class
+appmanager\TypeParamHelper.class
+tests\TestBase.class
+appmanager\ProductHelper.class
+tests\RemoveTypeParamProductTests.class

@@ -3,6 +3,8 @@ package appmanager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import java.util.regex.Pattern;
+
 /**
  * Created by 275 on 19.04.2018.
  */

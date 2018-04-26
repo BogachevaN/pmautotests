@@ -1,0 +1,4 @@
+7359 [main] INFO  tests.TestBase - Start test testAddTypeParamProductwith parameters[note, Примечание, string,  ]
+9887 [main] INFO  tests.TestBase - Stop test testAddTypeParamProduct
+9888 [main] INFO  tests.TestBase - Start test testAddTypeParamProductwith parameters[rateStructSH, Структура процентных ставок б/у авто, struct,  ]
+11708 [main] INFO  tests.TestBase - Stop test testAddTypeParamProduct

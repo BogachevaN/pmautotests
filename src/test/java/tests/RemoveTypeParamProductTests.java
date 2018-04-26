@@ -14,8 +14,10 @@ public class RemoveTypeParamProductTests extends TestBase {
         List<Object[]> typesParamBefor = app.db().TypesParam();
         app.getNavigationHelper().gotoTypeParamTab();
         By locator = app.db().findTypeParamWithoutProduct();
-        app.getTypeParamHelper().initTypeParamRemove(locator);
-        app.getTypeParamHelper().submitTypeParamRemove();
+        if (locator != null) {
+            app.getTypeParamHelper().initTypeParamRemove(locator);
+            app.getTypeParamHelper().submitTypeParamRemove();
+        }
         Thread.sleep(500);
         List<Object[]> typesParamAfter = app.db().TypesParam();
         Assert.assertEquals(typesParamAfter.size(),typesParamBefor.size()-1);

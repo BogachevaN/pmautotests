@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 16.732 s <<< FAILURE! - in TestSuite
+testAddTypeParamProduct(tests.AddTypeParamProductTests)  Time elapsed: 2.621 s  <<< FAILURE!
+java.lang.AssertionError: expected [18] but found [17]
+	at tests.AddTypeParamProductTests.testAddTypeParamProduct(AddTypeParamProductTests.java:42)
+
+testAddTypeParamProduct(tests.AddTypeParamProductTests)  Time elapsed: 2.316 s  <<< FAILURE!
+java.lang.AssertionError: expected [18] but found [17]
+	at tests.AddTypeParamProductTests.testAddTypeParamProduct(AddTypeParamProductTests.java:42)
+

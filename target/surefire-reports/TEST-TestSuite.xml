@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="16.732" tests="4" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="F:\Projects\pmautotests\pmautotests\target\test-classes;F:\Projects\pmautotests\pmautotests\target\classes;C:\Users\275\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\275\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\275\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\275\.m2\repository\org\seleniumhq\selenium\selenium-java\3.11.0\selenium-java-3.11.0.jar;C:\Users\275\.m2\repository\org\seleniumhq\selenium\selenium-api\3.11.0\selenium-api-3.11.0.jar;C:\Users\275\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.11.0\selenium-chrome-driver-3.11.0.jar;C:\Users\275\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.11.0\selenium-edge-driver-3.11.0.jar;C:\Users\275\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.11.0\selenium-firefox-driver-3.11.0.jar;C:\Users\275\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.11.0\selenium-ie-driver-3.11.0.jar;C:\Users\275\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.11.0\selenium-opera-driver-3.11.0.jar;C:\Users\275\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.11.0\selenium-remote-driver-3.11.0.jar;C:\Users\275\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.11.0\selenium-safari-driver-3.11.0.jar;C:\Users\275\.m2\repository\org\seleniumhq\selenium\selenium-support\3.11.0\selenium-support-3.11.0.jar;C:\Users\275\.m2\repository\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;C:\Users\275\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\275\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\275\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\275\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\275\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\275\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\275\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\275\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\275\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\275\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\275\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\275\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\275\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\275\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\275\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\275\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\275\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\275\.m2\repository\mysql\mysql-connector-java\8.0.11\mysql-connector-java-8.0.11.jar;C:\Users\275\.m2\repository\com\google\protobuf\protobuf-java\2.6.0\protobuf-java-2.6.0.jar;C:\Users\275\.m2\repository\org\webjars\npm\utf8\2.1.2\utf8-2.1.2.jar;C:\Users\275\.m2\repository\org\webjars\npm\angular-utf8-base64\0.0.5\angular-utf8-base64-0.0.5.jar;C:\Users\275\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\275\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\275\AppData\Local\Temp\surefire3672474109937888071\surefirebooter6405791914922934690.jar C:\Users\275\AppData\Local\Temp\surefire3672474109937888071 2018-04-26T11-18-50_013-jvmRun1 surefire8198334140912474747tmp surefire_06510889655642801004tmp"/>
+    <property name="surefire.test.class.path" value="F:\Projects\pmautotests\pmautotests\target\test-classes;F:\Projects\pmautotests\pmautotests\target\classes;C:\Users\275\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\275\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\275\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\275\.m2\repository\org\seleniumhq\selenium\selenium-java\3.11.0\selenium-java-3.11.0.jar;C:\Users\275\.m2\repository\org\seleniumhq\selenium\selenium-api\3.11.0\selenium-api-3.11.0.jar;C:\Users\275\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.11.0\selenium-chrome-driver-3.11.0.jar;C:\Users\275\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.11.0\selenium-edge-driver-3.11.0.jar;C:\Users\275\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.11.0\selenium-firefox-driver-3.11.0.jar;C:\Users\275\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.11.0\selenium-ie-driver-3.11.0.jar;C:\Users\275\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.11.0\selenium-opera-driver-3.11.0.jar;C:\Users\275\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.11.0\selenium-remote-driver-3.11.0.jar;C:\Users\275\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.11.0\selenium-safari-driver-3.11.0.jar;C:\Users\275\.m2\repository\org\seleniumhq\selenium\selenium-support\3.11.0\selenium-support-3.11.0.jar;C:\Users\275\.m2\repository\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;C:\Users\275\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\275\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\275\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\275\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\275\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\275\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\275\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\275\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\275\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\275\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\275\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\275\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\275\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\275\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\275\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\275\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\275\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\275\.m2\repository\mysql\mysql-connector-java\8.0.11\mysql-connector-java-8.0.11.jar;C:\Users\275\.m2\repository\com\google\protobuf\protobuf-java\2.6.0\protobuf-java-2.6.0.jar;C:\Users\275\.m2\repository\org\webjars\npm\utf8\2.1.2\utf8-2.1.2.jar;C:\Users\275\.m2\repository\org\webjars\npm\angular-utf8-base64\0.0.5\angular-utf8-base64-0.0.5.jar;C:\Users\275\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\275\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\275"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="basedir" value="F:\Projects\pmautotests\pmautotests"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\275\AppData\Local\Temp\surefire3672474109937888071\surefirebooter6405791914922934690.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="user.name" value="275"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\275\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\275\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="user.dir" value="F:\Projects\pmautotests\pmautotests"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\275\bin;C:\Users\275\AppData\Local\Programs\Git\mingw64\bin;C:\Users\275\AppData\Local\Programs\Git\usr\local\bin;C:\Users\275\AppData\Local\Programs\Git\usr\bin;C:\Users\275\AppData\Local\Programs\Git\usr\bin;C:\Program Files\Docker Toolbox;C:\Users\275\bin;C:\Users\275\AppData\Local\Programs\Git\mingw64\bin;C:\Users\275\AppData\Local\Programs\Git\usr\local\bin;C:\Users\275\AppData\Local\Programs\Git\usr\bin;C:\Users\275\AppData\Local\Programs\Git\usr\bin;C:\Users\275\AppData\Local\Programs\Git\mingw64\bin;C:\Users\275\AppData\Local\Programs\Git\usr\bin;C:\Users\275\bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_121\bin;%C;C:\Users\275\AppData\Local\Programs\Git\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\maven\bin;C:\Program Files (x86)\Skype\Phone;C:\Program Files\PuTTY;C:\Users\275\AppData\Local\Programs\Git\cmd;C:\Program Files\nodejs;C:\Program Files\MySQL\MySQL Utilities 1.6;C:\Program Files (x86)\PICT;C:\Users\275\AppData\Local\Microsoft\WindowsApps;C:\Users\275\AppData\Local\Programs\Git\cmd;C:\Program Files\Docker Toolbox;C:\Users\275\AppData\Roaming\npm;C:\Users\275\AppData\Local\Programs\Git\usr\bin;C:\Users\275\AppData\Local\GitHubDesktop\bin;F:\Projects\webdrivers;C:\Users\275\AppData\Local\Programs\Git\usr\bin\vendor_perl;C:\Users\275\AppData\Local\Programs\Git\usr\bin\core_perl;C:\Users\275\AppData\Local\Programs\Git\usr\bin\vendor_perl;C:\Users\275\AppData\Local\Programs\Git\usr\bin\core_perl;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testAddTypeParamProduct" classname="tests.AddTypeParamProductTests" time="2.621">
+    <failure message="expected [18] but found [17]" type="java.lang.AssertionError">java.lang.AssertionError: expected [18] but found [17]
+	at tests.AddTypeParamProductTests.testAddTypeParamProduct(AddTypeParamProductTests.java:42)
+</failure>
+    <system-out><![CDATA[11:18:55.224 [main] INFO  tests.TestBase - Start test testAddTypeParamProductwith parameters[note, РџСЂРёРјРµС‡Р°РЅРёРµ, string,  ]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 14102
+Only local connections are allowed.
+апр 26, 2018 11:18:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Thu Apr 26 11:18:55 ICT 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+Thu Apr 26 11:18:57 ICT 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+]]></system-err>
+  </testcase>
+  <testcase name="testAddTypeParamProduct" classname="tests.AddTypeParamProductTests" time="2.316">
+    <failure message="expected [18] but found [17]" type="java.lang.AssertionError">java.lang.AssertionError: expected [18] but found [17]
+	at tests.AddTypeParamProductTests.testAddTypeParamProduct(AddTypeParamProductTests.java:42)
+</failure>
+    <system-out><![CDATA[11:18:57.847 [main] INFO  tests.TestBase - Stop test testAddTypeParamProduct
+11:18:57.847 [main] INFO  tests.TestBase - Start test testAddTypeParamProductwith parameters[rateStructSH, РЎС‚СЂСѓРєС‚СѓСЂР° РїСЂРѕС†РµРЅС‚РЅС‹С… СЃС‚Р°РІРѕРє Р±/Сѓ Р°РІС‚Рѕ, struct,  ]
+]]></system-out>
+    <system-err><![CDATA[Thu Apr 26 11:18:57 ICT 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+Thu Apr 26 11:19:00 ICT 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+]]></system-err>
+  </testcase>
+  <testcase name="testRemoveTypeParamWithoutProduct" classname="tests.RemoveTypeParamProductTests" time="0.852"/>
+  <testcase name="testAddProductLevelOne" classname="tests.AddProductTests" time="5.473"/>
+</testsuite>
